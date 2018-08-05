@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css?family=Supermercado+One');
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans');
+@import url('https://fonts.googleapis.com/css?family=Risque');
+@charset "utf-8";
+/* CSS Document */
+.a{
+	backface-visibility: visible;
+	background-color: aqua;
+	background-image: radial-gradient();
+}
+
+.header{
+	background-color: black;
+	color: white;
+	height: 40px;
+	padding: 8px 0px 6px 30px;
+}
+
+.header h1{
+	font-family: consolas, "monospace corsiva"; 
+	/*'Risque', cursive;
+	'Noto Sans', sans-serif;
+	'Supermercado One', cursive;*/
+	font-size: 25px;
+	margin-top: 0px;
+	margin-right: 10px;
+	float: left;
+	color:  yellowgreen;
+}
+
+.nav ul li{
+	display: inline-block;
+	color: white;
+	float: left;
+	list-style-type: none;
+	margin-left: 10px;
+	font-style: normal;
+	font-family: "arial";
+	
+}
+.nav ul li a{
+	color: white;
+	text-decoration: none;
+}
+
+.homered{
+	background-color: red;
+	padding: 30px 10px 12px 10px;
+}
+.homeblack:hover{
+	background-color: white;
+	color: black;
+	padding: 30px 10px 12px 10px;
+}
